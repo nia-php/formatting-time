@@ -1,0 +1,25 @@
+{
+  "name" : "nia/formatting-time",
+  "description" : "Component with several time formatter implementations.",
+  "require" : {
+    "php" : ">=7.0.0",
+    "ext-intl" : "*",
+    "nia/formatting" : "*"
+  },
+  "license" : "MIT",
+  "keywords" : [ "nia", "formatter", "formatting", "time", "date", "datetime" ],
+  "minimum-stability" : "dev",
+  "autoload" : {
+    "psr-4" : {
+      "Nia\\Formatting\\Time\\" : "sources/",
+      "Test\\Nia\\Formatting\\Time\\" : "tests/"
+    }
+  },
+  "type" : "library",
+  "homepage" : "http://www.nat-software.de",
+  "authors" : [ {
+    "name" : "Patrick Ullmann",
+    "email" : "patrick.ullmann@nat-software.de",
+    "role" : "lead"
+  } ]
+}
